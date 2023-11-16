@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -14,7 +14,108 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-info" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Celestine B&B</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+
+    <div class="container container-md-6 my-3">
+        <h1 class="text-center">B&B Florida</h1>
+        <p>
+            Nestled amidst the lush tropical landscape of Florida, this charming bed and breakfast offers a tranquil retreat for travelers seeking a delightful escape. Surrounded by swaying palm trees and vibrant hibiscus blooms, the inn exudes a warm and welcoming atmosphere. Each thoughtfully appointed room reflects the laid-back elegance of coastal living, with tasteful decor and cozy furnishings that invite relaxation. Guests can start their day with a delicious homemade breakfast featuring local flavors, enjoyed on a sun-dappled patio overlooking a serene garden. The B&B's proximity to pristine beaches and cultural attractions allows visitors to explore the best of Florida's diverse offerings during the day, returning to the comfort of this hidden gem in the evening. With its personalized service and a touch of Southern hospitality, this bed and breakfast captures the essence of a quintessential Florida getaway.
+        </p>
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="vacay1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="vacay2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="vacay3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Cards -->
+        <div class="row">
+            <div class=" col-md-4 mb-3 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special Offers for Vets!</h5>
+                        <p class="card-text">If you've supported our country the let us treat you to an extra special
+                            offer
+                            just for you.</p>
+                        <a href="#" class="btn btn-info text-light">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-4 mb-3 my-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Available Dates</h5>
+                        <p class="card-text">Check here to see what's available to book. We show available dates up to 3
+                            months in advanced. </p>
+                        <a href="#" class="btn btn-info text-light">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-4 mb-3 my-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Local Activities Guide</h5>
+                        <p class="card-text">Don't stress over the fine details. Leave that to us! We'll make it a trip
+                            you'll never forget.</p>
+                        <a href="#" class="btn btn-info text-light">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-info text-light">
+        <div class="container text-center">
+            <p>Shanna Graves &copy; 2023</p>
+        </div>
+    </footer>
 </body>
 
 </html>
